@@ -3,7 +3,7 @@ class Block {
     this.element = element;
     
     this.element.addEventListener("click", () => {
-      this.element.classList.add("Block--hidden");
+      this.element.classList.add("Box--dropdown");
     });
   }
 }
@@ -16,5 +16,11 @@ blocks = Array.from(blocks).map(block => { return new Block(block)
 class dropdown {
     constructor(element) {
         this.element = element;
+        
+        this.element.addEventListener('click', ())
     }
 }
+
+var x = document.createElement("MENU");
+
+
