@@ -1,0 +1,98 @@
+body{
+    max-width: 1200px;
+    width: 100%;
+}
+.Block{
+    width: 100%;
+    border: 2px solid black;
+    
+        @media @desktop {
+            width: 100%;
+
+        }
+        @media @tablet{
+            width: 100%;
+            display: inline-flex;
+            justify-content: center;
+        }
+        @media @phone{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+}
+
+.Block__masterheader{
+    display: flex;
+    width: 100%;
+    
+        @media @desktop {
+            width: 100%;
+
+        }
+        @media @tablet{
+            width: 100%;
+            display: inline-flex;
+            justify-content: center;
+        }
+        @media @phone{
+            width: 100%;
+    }
+}
+
+.Block__header{
+    display: flex;
+    width: 78%;
+    justify-content: center;
+    align-self: center;
+    border: none;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    border: 2px solid black;
+    padding: 1%;
+    width: 8%;
+    
+}
+
+.Block__body{
+     display: flex;
+    width: 100%;
+        @media @desktop {
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                align-content: center;
+                width: 100%;
+        
+        }
+        @media @tablet{
+            width: 100%;
+            display: block;
+            justify-content: center;
+        }
+        @media @phone{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            align-content: center;
+            width: 100%;
+            width: 50%;
+    }
+ 
+    
+}
+
+
+
+.Block__content{
+    padding: 1%;
+    
+}
+
+.Block__description-content{
+    
+}

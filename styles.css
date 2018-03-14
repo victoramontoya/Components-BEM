@@ -1,6 +1,10 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
 
+@desktop: ~'(max-width: 1200px)';
+@tablet: ~'(max-width: 768px)';
+@phone: ~'(max-width: 400px)';
+
 body {
 	box-sizing: border-box;
 	min-width: 300px;
